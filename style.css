@@ -46,7 +46,8 @@ blockquote {
     border-radius: 8px;
 }
 #banner h1 {
-    font-size: 32px;
+    font-size: 32px; letter-spacing: 2px;
+
 }
 #banner h1 em {
     font-style: normal;
