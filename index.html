@@ -1,123 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Group4</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
-<!--start wrapper ADDED-->
 
-<div id="wrapper">
-<!--start body-->
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <div id="banner">
+    <h1>Group4 Portfolio</h1>
+  </div>
+</div>
 
-<div id="body">
-<!--start header/banner-->
-<!--Menu-->
-<!--End of Menu-->
-<ul id="topnav">
-    <li><a class="active">Home</a></li>
-    <li><a href="product.html">Products</a></li>
-    <li><a href="customer.html">About</a></li>
-    <li><a href="contact_us.html">Contact Us</a></li>
-    <li><a href="Bueno.html#about">Bueno</a></li>
-    <li><a href="Besana.html">Besana</a></li>
-    <li><a href="#">FAQs</a></li>
-</ul>
-<div id="banner">
-    <h1>Introduction to <em style="color: #FFD700";>HTML5 and CSS3</em> 5th Week</h1>
-    <p><em>This is an example of HTML 5 Linked to External CSS3</em></p>
- 
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="Bueno.html#about">Bueno</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Besana.html">Besana</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>    
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About Us</h2>
+      <h5>Jerwin Bueno</h5>
+      <!-- Updated image for Jerwin -->
+      <img src="bueno.jpg" alt="Jerwin Bueno" class="profile-img">
+
+      <h2>Elrom Magalong</h2>
+      <!-- Updated image for Elrom -->
+      <img src="path/to/your-image.jpg" alt="Elrom Magalong" class="profile-img">
+    </div>
+  </div>
 </div>
-<!--end of header/banner-->
-    <!--Start of Sidebar-->
-    <div id="sidebar">
-        <h2>About</h2>
-        <p>Use this reference for your PETA Midterm Project</p>
-        <h2>Categories</h2>
-        <ul>
-            <li><a href="#">Introduction to Web Design</a></li>
-            <li><a href="#">Introduction to HTML5</a></li>
-            <li><a href="#">Why HTML5?</a></li>
-            <li><a href="#">Introduction to CSS3</a></li>
-            <li><a href="#">Why CSS3?</a></li>
-            <li><a href="#">Web Development</a></li>
-        </ul>
-        <h2>List Here</h2>
-        <ul>
-            <li><a href="#">List 1</a></li>
-            <li><a href="#">List 2</a></li>
-            <li><a href="#">List 3</a></li>
-            <li><a href="#">List 4</a></li>
-            <li><a href="#">List 5</a></li>
-        </ul>
-        <h2>Links</h2>
-        <ul>
-            <li><a href="#">Visit APC Website</a></li>
-        </ul>
-    </div>
-    <div id="sidebar-left">
-        <h2>About</h2>
-        <p>Use this reference for your PETA Midterm Project</p>
-        <h2>Categories</h2>
-        <ul>
-            <li><a href="#">Introduction to Web Design</a></li>
-            <li><a href="#">Introduction to HTML5</a></li>
-            <li><a href="#">Why HTML5?</a></li>
-            <li><a href="#">Introduction to CSS3</a></li>
-            <li><a href="#">Why CSS3?</a></li>
-            <li><a href="#">Web Development</a></li>
-        </ul>
-        <h2>List Here</h2>
-        <ul>
-            <li><a href="#">List 1</a></li>
-            <li><a href="#">List 2</a></li>
-            <li><a href="#">List 3</a></li>
-            <li><a href="#">List 4</a></li>
-            <li><a href="#">List 5</a></li>
-        </ul>
-        <h2>Links</h2>
-        <ul>
-            <li><a href="#">Visit APC Website</a></li>
-        </ul>
-    </div>
-    
-    <!--end of Sidebar-->
-    <!--Start of Container-->
-    <div id="container">
-        <!--start of content-->
-        <div id="content">
-            <!--start of item-->
-            <div class="item">
-                <h1></h1>
-                <p></p>              
-                <blockquote><p></p></blockquote>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <!--Another list of Item-->
-            <div class="item">
-            </div>
-            <!--End of List of Item-->
-            <!--end of item-->
-        </div>
-        <!--end of content-->
-    </div>
-    <!--End of Container-->
-</div>
-<!--End of Body-->
+
 <!--Start of Footer-->
 <div id="footer">
-    <p style="text-align: center;">"Copyright 2024 Jerwin Bueno. All rights reserved."</p>
+  <p>"Copyright 2024 Jerwin Bueno. All rights reserved."</p>
 </div>
 <!--End of Footer-->
-</div>
-<!--End of Wrapper-->
+
 </body>
 </html>
