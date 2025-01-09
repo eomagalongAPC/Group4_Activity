@@ -193,3 +193,99 @@ ul#topnav li a:hover {
   }
 
 
+  <style>
+  body {
+      font-family: 'Arial', sans-serif;
+      color: #333;
+      line-height: 1.6;
+  }
+
+  #banner {
+      background-color: #222;
+      color: #fff;
+      padding: 50px 0;
+      text-align: center;
+  }
+
+  #banner h1 {
+      font-size: 2.5rem;
+  }
+
+  #topnav {
+      background-color: #2d2d2d;
+      padding: 10px 0;
+      margin: 0;
+      text-align: center;
+  }
+
+  #topnav li {
+      display: inline-block;
+      margin: 0 15px;
+  }
+
+  #topnav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1rem;
+  }
+
+  #topnav a:hover {
+      color: #FFD700;
+  }
+
+  .section {
+      margin-bottom: 60px;
+  }
+
+  .project-item {
+      background-color: #f8f9fa;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 30px;
+  }
+
+  .project-item h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+  }
+
+  .project-item a {
+      color: #007bff;
+  }
+
+  .project-item a:hover {
+      text-decoration: underline;
+  }
+
+  #footer {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+  }
+
+  #sidebar {
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+  }
+
+  #skills ul {
+      list-style-type: none;
+      padding-left: 0;
+  }
+
+  #skills li {
+      background-color: #f0f0f0;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 5px;
+  }
+
+  .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+  }
+</style>
